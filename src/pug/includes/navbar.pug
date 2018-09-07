@@ -1,34 +1,26 @@
 // Navigation
-nav.sticky-top
-  .navbar.navbar-expand-lg.container-fluid.navbar-container
-    span#sl-content.nav-item
-      a(href='./') FINA
+nav#mainNav.navbar.navbar-expand-lg.navbar-dark.bg-default.fixed-top(style="")
+    a.navbar-brand(href='index.html') FINA Business Analytics
     button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
-      span.navbar-toggler-icon
-      span.navbar-toggler-icon
-      span.navbar-toggler-icon
+        span.navbar-toggler-icon
     #navbarResponsive.collapse.navbar-collapse
-      ul.navbar-nav.ml-auto
-        li.nav-item.dropdown
-          a#navbarDropdownBlog.nav-link.dropdown-toggle(href='#', data-toggle='dropdown')
-            | Products
-          .dropdown-menu(aria-labelledby='navbarDropdownBlog')
-            a.dropdown-item(href='FINA-IRP.html')  FINA IRP
-            a.dropdown-item(href='')  FINA BI
-            a.dropdown-item(href='')  FINA STAT
-            a.dropdown-item(href='')  FINA EMS
-            a.dropdown-item(href='')  DKMS
-        li.nav-item
-          a.nav-link(href='team.html') Team
-        li.nav-item
-          a.nav-link(href='partners.html') Partners
-        li.nav-item
-          a.nav-link(href='clients.html') Clients
-        li.nav-item
-          a.nav-link(href='wiki.html') Wiki
-        li.nav-item
-          a.nav-link(href='http://fina2training.blogspot.com', target='_blank') Workshops
-        li.nav-item
-          a.nav-link(href='vacancies.html') Vacancies
-        li.nav-item
-          a.nav-link(href='contact.html') Contact
+        ul.navbar-nav.ml-auto
+            li.nav-item(data-toggle='tooltip', data-placement='right', title='About Us')
+                a.nav-link(href='about.html')
+                    i.fa.fa-fw.fa-info
+                    span.nav-link-text
+                        | &nbsp;About Us
+            li.nav-item(data-toggle='tooltip', data-placement='right', title='Services')
+                a.nav-link(href='index.html')
+                    i.fa.fa-fw.fa-cog
+                    span.nav-link-text
+                        | &nbsp; Services
+            li.nav-item(data-toggle='tooltip', data-placement='right', title='Documentation')
+                a.nav-link(href='documentation.html')
+                    i.fa.fa-fw.fa-book
+                    span.nav-link-text
+                        | &nbsp; Documentation
+            li.nav-item
+                a.nav-link(data-toggle='modal', data-target='#exampleModal')
+                    i.fa.fa-fw.fa-comment-o
+                    | &nbsp; support

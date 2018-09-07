@@ -1,51 +1,70 @@
 doctype html
 html(lang="en")
     head
-        script(src="https://www.googletagmanager.com/gtag/js?id=UA-6079561-7" async)
-        script().
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-6079561-7');
-
-
-        title FINA LLC
-
         include includes/css/core
         include includes/css/custom
 
-
-
     body
         include includes/navbar
-        include includes/media-icons
+        .container-fluid.mt-5.pt-5
+            .row
+                .col-lg-6.offset-lg-1
+                    h2 About Us
+                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                    p Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                .col-lg-4
+            .row(style="background-color: #ea0000;")
+                .col-lg-6
 
-        div
-            .container-fluid
-                .row.padding-top
-                    .col-lg-6.offset-lg-1
-                        h2 About
+                .col-lg-6
+                    h2.text-center what we do
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-                        p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                        p Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                    .col-lg-4
-                .row.padding-top
-                    .col-lg-6
-
-                    .col-lg-6
-                        h2.text-center what we do
-                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-                .row.padding-top
-                    .col-lg-5.offset-lg-1
-                        div.padding-top Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        div.padding-top Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        div.padding-top Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    .col-lg-5
-                        div.padding-top Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        div.padding-top Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        div.padding-top Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            .row.pt-4
+                .col-lg-5.offset-lg-1
+                    .row.pt-2
+                        .col-2
+                            div
+                                i.fa.fa-cogs(style="color:#E85245; font-size:50px")
+                        .col-10
+                            div(style="font-weight:bold;") Title
+                            div Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    .row.pt-2
+                        .col-2
+                            div
+                                i.fa.fa-cogs(style="color:#E85245; font-size:50px")
+                        .col-10
+                            div(style="font-weight:bold;") Title
+                            div Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    .row.pt-2
+                        .col-2
+                            div
+                                i.fa.fa-cogs(style="color:#E85245; font-size:50px")
+                        .col-10
+                            div(style="font-weight:bold;") Title
+                            div Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                .col-lg-5
+                    .row.pt-2
+                        .col-2
+                            div
+                                i.fa.fa-cogs(style="color:#E85245; font-size:50px")
+                        .col-10
+                            div(style="font-weight:bold;") Title
+                            div Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    .row.pt-2
+                        .col-2
+                            div
+                                i.fa.fa-cogs(style="color:#E85245; font-size:50px")
+                        .col-10
+                            div(style="font-weight:bold;") Title
+                            div Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    .row.pt-2
+                        .col-2
+                            div
+                                i.fa.fa-cogs(style="color:#E85245; font-size:50px")
+                        .col-10
+                            div(style="font-weight:bold;") Title
+                            div Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 
 
         include includes/footer
