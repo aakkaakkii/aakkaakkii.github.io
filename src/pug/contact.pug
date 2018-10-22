@@ -1,0 +1,63 @@
+doctype html
+html(lang='en')
+
+    head
+        meta(charset='utf-8')
+
+        title Contact - FINA BI
+
+        include includes/css/core
+        include includes/css/custom
+
+    body
+        include includes/navbar
+
+        .container-fluid.mt-5.contact-box(style="margin-right:5%;margin-left:5%;width:calc(100% - 10%)!important; padding-left:0!important;padding-right:0!important;")
+            .row.mt-5
+                .col-md-4
+                    .cont-box
+                        div
+                            i.fa.fa-map-marker.BI_contact_info_img
+                        .BI_contact_info_text  Address
+                        div Zhiuli Shartava str 40
+                        div 9th Floor, Room 313
+                        div 0160 Tbilisi, Georgia
+                .col-md-4
+                    .cont-box
+                        div
+                            i.fa.fa-phone.BI_contact_info_img
+                        .BI_contact_info_text  Phone
+                        div + 995 599 80 35 13
+                .col-md-4
+                    .cont-box
+                        div
+                            i.fa.fa-envelope-o.BI_contact_info_img
+                        .BI_contact_info_text Mail
+                        div info@fina2.net
+
+
+        #contact-map-container.container-fluid(style="padding:110px 0 0 0; margin: 0!important")
+            #contact-map(style="width:100%;height:calc(300px + 18vh);")
+            script.
+                function myMap() {
+                    var uluru = {lat: 41.730297, lng: 44.7695915};
+                    var map = new google.maps.Map(document.getElementById('contact-map'), {
+                        zoom: 15,
+                        center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map,
+                    });
+                }
+
+            script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB835ntbgAP98-vne6k1NqnyK174Q0xBJo&callback=myMap").
+
+        include includes/footer.pug
+
+        include includes/js/core
+
+        include includes/js/custom
+
+        script().
+            responsiveClass('#contact-map-container', "map-padding2", true);

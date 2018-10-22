@@ -21,63 +21,59 @@ html(lang='en')
             .FN_header-title
                 .text-center
                     | FINA Business Analytics
-            .FN_header-text.text-justify
+            //.FN_header-text.text-justify
                 | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        h1.section-title.text-center Key Features
-        .container-fluid.FN_indexp-bullets
+        h1.section-title.text-center FINA BI
+        .container-fluid#FN_main-component
             .row
-                .col-12
-                .col-lg-4.mt-5
-                    .card.h-100
-                        .hexagon
-                        .vl
-                        .circle
-                        .hexagon-text
-                            i.fa.fa-globe(style="color:white; font-size:25px")
-                        div
-                            div(style="padding:10px 15px 10px calc(50px + 3vw);")
-                                .FN_title Web Based Analysis
-                                .text-justify
-                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                .col-lg-4.mt-5
-                    .card.h-100
-                        .hexagon
-                        .vl
-                        .circle
-                        .hexagon-text
-                            i.fa.fa-plane(style="color:white; font-size:25px")
-                        div
-                            div(style="padding:10px 15px 10px calc(50px + 3vw);")
-                                .FN_title Analyse Data From Anywhere
-                                .text-justify
-                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                .col-lg-4.mt-5
-                    .card.h-100
-                        .hexagon
-                        .vl
-                        .circle
-                        .hexagon-text
-                            i.fa.fa-rocket(style="color:white; font-size:25px")
-                        div
-                            div(style="padding:10px 15px 10px calc(50px + 3vw);")
-                                .FN_title Dynamic Visualisations
-                                .text-justify
-                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                .col-lg-4.mt-5
-                    .card.h-100
-                        .hexagon
-                        .vl
-                        .circle
-                        .hexagon-text
-                            i.fa.fa-line-chart(style="color:white; font-size:25px")
-                        div
-                            div(style="padding:10px 15px 10px calc(50px + 3vw);")
-                                .FN_title Data Analysis
-                                .text-justify
-                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                .col-lg-4
+                    a(href="about.html")
+                        .FN_main-component-item.text-center.pt-5
+                            .FN_comp-icon
+                                i.fa.fa-info
+                            .FN_comp_title About Us
+                            .FN_comp_underline
+                .col-lg-4
+                    a(href="https://drive.google.com/drive/folders/0BxmMbqMff49lYzIyMmI5NTAtMjY4NC00YTRhLWJhYWMtOTE4NWY3OTZkMmJm" target="_blank")
+                        .FN_main-component-item.text-center.pt-5
+                            .FN_comp-icon
+                                i.fa.fa-book
+                            .FN_comp_title Docs
+                            .FN_comp_underline
+                .col-lg-4
+                    a(href="#" target="_blank")
+                        .FN_main-component-item.text-center.pt-5
+                            .FN_comp-icon
+                                i.fa.fa-cog
+                            .FN_comp_title
+                                span Service
+                            .FN_comp_underline
+                .col-lg-4
+                    a(href="https://sourceforge.net/projects/fina/files/FinA-WEB/" target="_blank")
+                        .FN_main-component-item.text-center.pt-5
+                            .FN_comp-icon
+                                i.fa.fa-file-code-o
+                            .FN_comp_title
+                                .some Code
+                            .FN_comp_underline
+                .col-lg-4
+                    a(href="https://sourceforge.net/projects/fina/" target="_blank")
+                        .FN_main-component-item.text-center.pt-5
+                            .FN_comp-icon
+                                i.fa.fa-file-text
+                            .FN_comp_title Wiki
+                            .FN_comp_underline
+                .col-lg-4
+                    a(href="clients.html")
+                        .FN_main-component-item.text-center.pt-5
+                            .FN_comp-icon
+                                i.fa.fa-group
+                            .FN_comp_title Clients
+                            .FN_comp_underline
+
         include includes/footer.pug
 
-        include includes/scroll-to-top.pug
+        //include includes/scroll-to-top.pug
 
         include includes/modals/logout.pug
 

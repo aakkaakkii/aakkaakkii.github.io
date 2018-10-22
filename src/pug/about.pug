@@ -1,73 +1,44 @@
 doctype html
-html(lang="en")
+html(lang='en')
+
     head
-        include includes/css/core
-        include includes/css/custom
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title FINA BI
+
+        include includes/css/core.pug
+
+        include includes/css/custom.pug
 
     body
-        include includes/navbar
-        .container-fluid.mt-5.pt-5
+        include includes/navbar.pug
+
+        .container.pt-5.mt-5
             .row
-                .col-lg-6.offset-lg-1
-                    h2 About Us
-                    p Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-                    p Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                .col-lg-4
-            .row(style="background-color: #ea0000;")
-                .col-lg-6
-
-                .col-lg-6
-                    h2.text-center what we do
-                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-            .row.pt-4
-                .col-lg-5.offset-lg-1
-                    .row.pt-2
-                        .col-2
-                            div
-                                i.fa.fa-cogs(style="color:#E85245; font-size:50px")
-                        .col-10
-                            div(style="font-weight:bold;") Title
-                            div Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    .row.pt-2
-                        .col-2
-                            div
-                                i.fa.fa-cogs(style="color:#E85245; font-size:50px")
-                        .col-10
-                            div(style="font-weight:bold;") Title
-                            div Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    .row.pt-2
-                        .col-2
-                            div
-                                i.fa.fa-cogs(style="color:#E85245; font-size:50px")
-                        .col-10
-                            div(style="font-weight:bold;") Title
-                            div Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                .col-lg-5
-                    .row.pt-2
-                        .col-2
-                            div
-                                i.fa.fa-cogs(style="color:#E85245; font-size:50px")
-                        .col-10
-                            div(style="font-weight:bold;") Title
-                            div Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    .row.pt-2
-                        .col-2
-                            div
-                                i.fa.fa-cogs(style="color:#E85245; font-size:50px")
-                        .col-10
-                            div(style="font-weight:bold;") Title
-                            div Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    .row.pt-2
-                        .col-2
-                            div
-                                i.fa.fa-cogs(style="color:#E85245; font-size:50px")
-                        .col-10
-                            div(style="font-weight:bold;") Title
-                            div Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                .col-12
+                    div In response to the need for better bank supervision systems a state-of-the-art information management system was developed for Bank Supervision Authorities called FINA. FINA is the system to collect data from banks, store them in the data base and generate different reports using very flexible report designer tools. The advances of the FINA are:
+                    ul.pt-2
+                        li FINA is fully customizable and localizable system at user level; it is independent of any legal, regulatory, or accounting framework. Changes in input/output forms does not require additional programming and can be implemented into system very quickly with any staff who knows spreadsheet functions.
+                        li FINA is platform independent and works on Windows, Linux, AIX and Solaris.
+                        li FINA is database independent.
+                        li FINA is 3 tire java application and this makes it scalable and extendable.
+                        li System has very low software/hardware requirements. It works on any Computer (IBM or MAC compatible) higher than Pentium 2/200MH, on any OS supporting Java Virtual Machine (Windows, UNIX, etc.) and on any IP based network.
+                        li FINA is open source under the GNU/GPL license. All components used in the system are free and does not require license fees.
+                        li Main outputs from FINA system are : UBPR (Uniform Bank Performance report), CAEL/CAMEL, Early Warning Systems, Trends/Time Series.
+                        li FINA is implemented and tested in 4 Central / National banks in the countries of Georgia, Kyrgyzstan, Tajikistan and Azerbaijan. Currently being implemented in San Marino.
 
 
-        include includes/footer
-        include includes/js/core
-        include includes/js/custom
+        footer(style="position:absolute; bottom:0; width:100%")
+            .container
+                .text-center
+                    small Copyright © FINA LLC 2018
 
+        include includes/modals/logout.pug
+
+        include includes/js/core.pug
+
+        include includes/js/custom.pug

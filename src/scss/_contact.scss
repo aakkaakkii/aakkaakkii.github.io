@@ -1,0 +1,86 @@
+#contact-page-details{
+  background-color: $main-color;
+  padding-top: 10px;
+}
+
+#contact-page{
+  input {
+    &[type=text], &[type=tel], &[type=email] {
+      width: 100%;
+      border-width: 0 0 1px 0;
+    }
+  }
+  textarea{
+    width: 100%;
+    border-width: 0 0 1px 0;
+    height: 150px!important;
+  }
+
+  .form-control{
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .padding-top{
+    padding-top: 10px!important;
+  }
+}
+
+.bmd-label-floating{
+  color: #3e3e3e !important;
+}
+
+#contact-map{
+  width: 100%;
+}
+.contact-right-side{
+  background: rgba(255, 255, 255, 0.8);
+  padding-bottom: 20px;
+  padding-left:5%!important;
+  padding-right:5%!important;
+  position: absolute;
+  z-index:10;
+
+  span{
+    color: rgba(0, 0, 0, 0.75);
+  }
+  hr{
+    background-color: $main-color;
+  }
+}
+
+.map-padding{
+  padding-top: calc(300px + 30vh)!important;
+}
+
+.map-padding2{
+  padding-top: calc(580px + 6vh)!important;
+}
+
+.contact-box{
+  position: absolute;
+  z-index: 1;
+}
+.cont-box{
+  margin-top: 10px;
+  padding-top: calc(30px + 1vh);
+  height: calc(180px + 2vh);
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#contact-map{
+  margin-top: 100px!important;
+  height: 80vh!important;
+}
+
+.BI_contact_info_img{
+  font-size:35px;
+  color:$main-color;
+}
+
+.BI_contact_info_text{
+  font-weight:bold;
+  color: $main-color;
+}

@@ -3,11 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>FINA BI</title>
+    <title>Contact - FINA BI</title>
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template-->
@@ -29,51 +25,58 @@
             </ul>
             </div>
     </nav>
-    <div class="container-fluid pt-5 mt-5">
-        <div class="row">
-            <div class="col-8 offset-2">
-                <table class="table table-bordered">
-                    <thead>
-                        <tr>
-                            <th>some</th>
-                            <th>some</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><a href="#" style="color:red; text-decoration-line: underline;">some</a></td>
-                            <td>some</td>
-                        </tr>
-                        <tr>
-                            <td><a href="#" style="color:red; text-decoration-line: underline;">some</a></td>
-                            <td>some</td>
-                        </tr>
-                        <tr>
-                            <td><a href="#" style="color:red; text-decoration-line: underline;">some</a></td>
-                            <td>some</td>
-                        </tr>
-                    </tbody>
-                </table>
+    <div class="container-fluid mt-5 contact-box" style="margin-right:5%;margin-left:5%;width:calc(100% - 10%)!important; padding-left:0!important;padding-right:0!important;">
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="cont-box">
+                    <div><i class="fa fa-map-marker BI_contact_info_img"></i></div>
+                    <div class="BI_contact_info_text"> Address</div>
+                    <div>Zhiuli Shartava str 40</div>
+                    <div>9th Floor, Room 313</div>
+                    <div>0160 Tbilisi, Georgia</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cont-box">
+                    <div><i class="fa fa-phone BI_contact_info_img"></i></div>
+                    <div class="BI_contact_info_text"> Phone</div>
+                    <div>+ 995 599 80 35 13</div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="cont-box">
+                    <div><i class="fa fa-envelope-o BI_contact_info_img"></i></div>
+                    <div class="BI_contact_info_text">Mail</div>
+                    <div>info@fina2.net</div>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="container-fluid" id="contact-map-container" style="padding:110px 0 0 0; margin: 0!important">
+        <div id="contact-map" style="width:100%;height:calc(300px + 18vh);"></div>
+        <script>
+            function myMap() {
+                var uluru = {
+                    lat: 41.730297,
+                    lng: 44.7695915
+                };
+                var map = new google.maps.Map(document.getElementById('contact-map'), {
+                    zoom: 15,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map,
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB835ntbgAP98-vne6k1NqnyK174Q0xBJo&amp;callback=myMap"></script>
     </div>
     <footer>
         <div class="container">
             <div class="text-center"><small>Copyright © FINA LLC 2018</small></div>
         </div>
     </footer>
-    <!-- Scroll to Top Button--><a class="scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a>
-    <!-- Logout Modal-->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to start?</h5><button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">Coming Soon!</div>
-                <div class="modal-footer"><button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button><a class="btn btn-primary" href="index.html">Start</a></div>
-            </div>
-        </div>
-    </div>
     <!-- JQuery-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap tooltips-->
@@ -90,6 +93,9 @@
     <script src="vendor/snapsvg/snap.svg.js"></script>
     <!-- Custom scripts for all pages-->
     <script src="assets/js/fina.bi.js"></script>
+    <script>
+        responsiveClass('#contact-map-container', "map-padding2", true);
+    </script>
 </body>
 
 </html>

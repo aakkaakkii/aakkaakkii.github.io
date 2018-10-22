@@ -1,0 +1,36 @@
+/*
+#footer-main-content{
+  ul{
+    padding-top: 0;
+    list-style-type: none!important;
+
+    li {
+      a {
+        padding-left: 0;
+        padding-bottom: 10px;
+        padding-top: 7px;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+footer{
+  background-color: #5D5D5D!important;
+  color: white;
+  #copyright{
+    hr{
+      color: white;
+      background-color: white;
+    }
+  }
+
+}
+*/
+
+footer{
+  background-color: $main-color;
+  small{
+    color:white;
+  }
+}
