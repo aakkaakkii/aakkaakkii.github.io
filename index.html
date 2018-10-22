@@ -36,8 +36,13 @@
         </div>
         <!--.FN_header-text.text-justify| Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in-->
     </div>
+<<<<<<< HEAD
     <h1 class="section-title text-center">FINA BI</h1>
     <div class="container-fluid" id="FN_main-component">
+=======
+    <h1 class="section-title text-center">222222 Features</h1>
+    <div class="container-fluid FN_indexp-bullets">
+>>>>>>> f47c6d8110c6ffa784adab396f6c4dd30c3e3975
         <div class="row">
             <div class="col-lg-4">
                 <a href="about.html">
@@ -130,21 +135,36 @@
     <script src="vendor/snapsvg/snap.svg.js"></script>
     <!-- Custom scripts for all pages-->
     <script src="assets/js/fina.bi.js"></script>
-    <script type="text/javascript">
-        let nav = document.querySelector("#mainNav");
+    
+    <div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '249997065698624',
+            xfbml      : true,
+            version    : 'v3.1'
+        });
 
-        (function() {
-            nav.setAttribute('style', 'background-color:transparent !important;');
-        })()
+        FB.AppEvents.logPageView();
 
-        window.onscroll = function() {
-            if (window.pageYOffset < 100) {
-                nav.setAttribute('style', 'background-color:transparent !important;');
-            } else {
-                nav.setAttribute('style', '');
-            }
-        }
-    </script>
+    };
+
+        (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+     attribution=install_email
+     page_id="1924552100956044"
+     logged_in_greeting="ონლაინ კონსულტაცია"
+     logged_out_greeting="ონლაინ კონსულტაცია">
+</div>
 </body>
 
 </html>
