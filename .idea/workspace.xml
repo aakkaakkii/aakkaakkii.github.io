@@ -2,155 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecd5e988-a2a3-415e-95d9-4f5140c3031b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/fina.bi.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/fina.bi.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sb-admin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/sb-admin.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/map.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/no-image-available.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/random.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/fina.bi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/fina.bi.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/about.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/documentation.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/includes/css/core.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/includes/css/custom.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/includes/footer.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/includes/js/core.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/includes/js/custom.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/includes/modals/logout.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/includes/navbar.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/includes/scroll-to-top.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/index.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/fina.bi.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/chart.js/Chart.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/chart.js/Chart.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/chart.js/Chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/chart.js/Chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/datatables/dataTables.bootstrap4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/datatables/dataTables.bootstrap4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/datatables/jquery.dataTables.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/font-awesome/css/font-awesome.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery-easing/jquery.easing.compatibility.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery-easing/jquery.easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery-easing/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/jquery/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/CODE_OF_CONDUCT.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/License.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/css/mdb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/css/mdb.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/css/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Medium.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Thin.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Thin.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/font/roboto/Roboto-Thin.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/img/overlays/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/img/overlays/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/img/overlays/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/img/overlays/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/img/overlays/05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/img/overlays/06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/img/overlays/07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/img/overlays/08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/img/overlays/09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/img/svg/arrow_left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/img/svg/arrow_right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/js/mdb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/js/mdb.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/license.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/_custom.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/core/_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/core/_global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/core/_helpers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/core/_masks.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/core/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/core/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/core/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/core/_waves.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/core/bootstrap/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/core/bootstrap/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_animations-basic.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_animations-extended.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_badges.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_cards.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_carousels.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_depreciated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_dropdowns.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_footers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_input-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_modals.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_msc.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_navbars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/free/_tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/mdbootstrap/scss/mdb.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/snapsvg/snap.svg-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/snapsvg/snap.svg.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/awards.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/education.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/experience.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/resume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/resume.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/resume.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/resume.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/resume.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/resume.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -164,33 +26,61 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/vendor/fontawesome-free/scss/brands.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="169" column="22" lean-forward="true" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+            <state relative-caret-position="336">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/resume.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-924" />
+            <state relative-caret-position="256">
+              <caret line="41" column="137" selection-start-line="41" selection-start-column="137" selection-end-line="41" selection-end-column="137" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/resume.min.css">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/css/resume.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="196" column="21" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/resume.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="777">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/experience.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/education.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/awards.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -213,6 +103,10 @@
       <find>conso</find>
       <find>skills</find>
       <find>educa</find>
+      <find>fa-linux</find>
+      <find>data</find>
+      <find>linux</find>
+      <find>linked</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -222,9 +116,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/some.html" />
-        <option value="$PROJECT_DIR$/js/resume.js" />
         <option value="$PROJECT_DIR$/css/resume.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/resume.js" />
+        <option value="$PROJECT_DIR$/data/experience.json" />
       </list>
     </option>
   </component>
@@ -251,18 +146,7 @@
             <path>
               <item name="aakkaakkii.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="aakkaakkii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aakkaakkii.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aakkaakkii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="resume.css" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="aakkaakkii.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aakkaakkii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aakkaakkii.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -272,26 +156,7 @@
             <path>
               <item name="aakkaakkii.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="aakkaakkii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="resume.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="aakkaakkii.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aakkaakkii.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aakkaakkii.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aakkaakkii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="fontawesome-free" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aakkaakkii.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aakkaakkii.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="fontawesome-free" type="462c0819:PsiDirectoryNode" />
-              <item name="svgs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,6 +173,10 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\programming\web_front-end\aakkaakkii.github.io\data" />
+      <recent name="F:\programming\web_front-end\aakkaakkii.github.io\vendor\fontawesome-free\svgs\brands" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\programming\web_front-end\aakkaakkii.github.io" />
     </key>
@@ -336,12 +205,12 @@
       <updated>1540310991925</updated>
       <workItem from="1540310999156" duration="1748000" />
       <workItem from="1541259992350" duration="17000" />
-      <workItem from="1549469368119" duration="2935000" />
+      <workItem from="1549469368119" duration="7399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4700000" />
+    <option name="totallyTimeSpent" value="9164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -352,7 +221,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,19 +287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/resume.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/resume.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/resume.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -441,19 +297,70 @@
     <entry file="file://$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/app-store-ios.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="169" column="22" lean-forward="true" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/profile.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fontawesome-free/svgs/solid/database.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/Desktop/sqldatabase.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fontawesome-free/css/fontawesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="1155" column="8" selection-start-line="1155" selection-start-column="4" selection-end-line="1155" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/resume.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fontawesome-free/scss/brands.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-924" />
+        <state relative-caret-position="469">
+          <caret line="196" column="21" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="41" column="137" selection-start-line="41" selection-start-column="137" selection-end-line="41" selection-end-column="137" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/resume.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/awards.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/education.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/experience.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
       </provider>
     </entry>
   </component>

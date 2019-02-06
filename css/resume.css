@@ -184,3 +184,26 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+#nav-language-change{
+  color: rgba(255, 255, 255, 0.45);
+  position:relative;
+  float:right!important;
+  margin: 7px 10px;
+}
+
+#language-change{
+  color: rgba(255, 255, 255, 0.45);
+  margin-bottom: 20px;
+}
+
+#nav-language-change > span, #language-change > span{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#nav-language-change > span:hover, #language-change > span:hover{
+  color:white;
+}
+
+
