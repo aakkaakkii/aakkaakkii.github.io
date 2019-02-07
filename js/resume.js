@@ -1,5 +1,13 @@
+let lang = 'en';
+
 (function ($) {
     "use strict"; // Start of use strict
+
+    document.cookie.split('; ').forEach(function (d) {
+        let data = d.split('=');
+        if (data[0]==='lang')
+            lang = data[1];
+    });
 
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
@@ -28,13 +36,60 @@
 
     $('.language-button-ge').each(function () {
         this.addEventListener('click', function () {
-            console.log('ge')
+            document.cookie = 'lang=ge';
+            location.reload();
         });
     });
 
     $('.language-button-en').each(function () {
         this.addEventListener('click', function () {
-            console.log('en')
+            document.cookie = 'lang=en';
+            location.reload();
+        });
+    });
+
+   /* $.ajax({
+        url:'https://aakkaakkii.github.io/data/experience.json',
+        method: 'GET',
+        success: function (data) {
+            console.log(data)
+        }
+
+    })*/
+
+    $.getJSON('data/'+lang+'/education.json', function (json) {
+        json.forEach(function (d) {
+            $('#education-section').append(
+                '<div id="education-container">\n' +
+                '                <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">\n' +
+                '                    <div class="resume-content">\n' +
+                '                        <h3 class="mb-0">' + d.university + '</h3>\n' +
+                '                        <div class="subheading mb-3">'+ d.degree +'</div>\n' +
+                '                        <div>'+ d.description +'</div>\n' +
+                '                    </div>\n' +
+                '                    <div class="resume-date text-md-right">\n' +
+                '                        <span class="text-primary">'+ d.date +'</span>\n' +
+                '                    </div>\n' +
+                '                </div>\n' +
+                '            </div>'
+            );
+        });
+    });
+
+    $.getJSON('data/'+lang+'/experience.json', function (json) {
+        json.forEach(function (d) {
+            $('#experience-container').append(
+                '<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">\n' +
+                '                <div class="resume-content">\n' +
+                '                    <h3 class="mb-0">'+ d.position +'</h3>\n' +
+                '                    <div class="subheading mb-3">'+ d.company +'</div>\n' +
+                '                    <p>'+ d.description +'</p>\n' +
+                '                </div>\n' +
+                '                <div class="resume-date text-md-right">\n' +
+                '                    <span class="text-primary">'+ d.date +'</span>\n' +
+                '                </div>\n' +
+                '            </div>'
+            );
         });
     });
 
