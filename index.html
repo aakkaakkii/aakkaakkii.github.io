@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134199712-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-134199712-1');
+    </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,7 +39,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top d-sm-block d-lg-flex" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Akaki Tskhadadze</span>
+        <span class="d-block d-lg-none"><span id="navbar-name">Akaki Tskhadadze</span>
         <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
       </span>
@@ -50,20 +59,17 @@
                 <a class="nav-link js-scroll-trigger" href="#about" id="about-item">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#experience" id="about-experience">Experience</a>
+                <a class="nav-link js-scroll-trigger" href="#experience" id="experience-item">Experience</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#education" id="about-education">Education</a>
+                <a class="nav-link js-scroll-trigger" href="#education" id="education-item">Education</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#skills" id="about-skills">Skills</a>
+                <a class="nav-link js-scroll-trigger" href="#skills" id="skills-item">Skills</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#interests" id="about-interests">Interests</a>
-            </li>
-            <li class="nav-item">
+           <!-- <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#awards" id="about-awards">Awards</a>
-            </li>
+            </li>-->
         </ul>
     </div>
 
@@ -77,15 +83,13 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
         <div class="w-100">
-            <h1 class="mb-0">akaki
-                <span class="text-primary">tskhadadze</span>
+            <h1 class="mb-0" id="name-section" ><span id="first_name">akaki</span>
+                <span class="text-primary" id="last_name">tskhadadze</span>
             </h1>
             <div class="subheading mb-5"><span><i class="fa fa-phone" style="margin-right: 10px"></i></span>  +995 598 607-864 ·
                 <a href="mailto:aakkaakkii1997@gmail.com"><span><i class="fa fa-envelope" style="margin-right: 10px"></i></span>  aakkaakkii1997@gmail.com</a>
             </div>
-            <p class="lead mb-5" id="about-me">I am experienced in leveraging agile frameworks to provide a robust synopsis for high
-                level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the
-                overall value proposition.</p>
+            <p class="lead mb-5" id="about-me"></p>
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/akaki-tskhadadze-318837170" target="_blank">
                     <i class="fab fa-linkedin-in"></i>
@@ -104,7 +108,7 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="experience">
         <div class="w-100" id="experience-container">
-            <h2 class="mb-5" id="about-experience-title">Experience</h2>
+            <h2 class="mb-5" id="experience-title">Experience</h2>
         </div>
     </section>
 
@@ -112,7 +116,7 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
         <div class="w-100" id="education-section">
-            <h2 class="mb-5" id="about-education-title">Education</h2>
+            <h2 class="mb-5" id="education-title">Education</h2>
         </div>
     </section>
 
@@ -120,9 +124,9 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
         <div class="w-100">
-            <h2 class="mb-5" id="about-skills-title">Skills</h2>
+            <h2 class="mb-5" id="skills-title">Skills</h2>
 
-            <div class="subheading mb-3" id="about-skills-sub-title">Programming Languages &amp; Tools</div>
+            <div class="subheading mb-3" id="skills-sub-title">Programming Languages &amp; Tools</div>
 
             <ul class="list-inline dev-icons">
                 <li class="list-inline-item">
@@ -192,21 +196,9 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-        <div class="w-100">
-            <h2 class="mb-5" id="about-interests-title">Interests</h2>
-            <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid
-                skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free
-                climbing, and kayaking.</p>
-            <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television
-                shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology
-                advancements in the front-end web development world.</p>
-        </div>
-    </section>
-
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+   <!-- <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
         <div class="w-100">
             <h2 class="mb-5" id="about-awards-title">Awards &amp; Certifications</h2>
             <ul class="fa-ul mb-0">
@@ -245,7 +237,7 @@
                 </li>
             </ul>
         </div>
-    </section>
+    </section>-->
 
 </div>
 

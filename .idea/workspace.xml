@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecd5e988-a2a3-415e-95d9-4f5140c3031b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ge/awards.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ge/education.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ge/experience.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/custom-font/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/custom-font/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/custom-font/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/custom-font/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/custom-font/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/fontawesome-free/svgs/brands/sqldatabase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/en/about&amp;interface.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/ge/about&amp;interface.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/awards.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/en/awards.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/education.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/en/education.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/experience.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/en/experience.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/resume.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/resume.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/resume.min.js" afterDir="false" />
@@ -29,27 +18,55 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/index.html">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="533">
+                    <caret line="76" column="33" lean-forward="true" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="45" />
+                    <folding>
+                      <element signature="n#style#0;n#button#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                      <element signature="n#style#0;n#i#0;n#span#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/data/en/about&amp;interface.json">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="84">
+                    <caret line="3" column="13" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="13" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/fontawesome-free/scss/brands.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/ge/about&amp;interface.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-279">
-              <caret line="170" column="11" lean-forward="true" selection-start-line="170" selection-start-column="11" selection-end-line="170" selection-end-column="11" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#span#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -58,16 +75,16 @@
         <entry file="file://$PROJECT_DIR$/vendor/custom-font/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="728">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="17" />
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/resume.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+            <state relative-caret-position="175">
+              <caret line="98" column="62" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -84,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/resume.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
+            <state relative-caret-position="5488">
               <caret line="196" column="21" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
             </state>
           </provider>
@@ -123,6 +140,9 @@
       <find>akaki</find>
       <find>ab</find>
       <find>abou</find>
+      <find>inter</find>
+      <find>about-me</find>
+      <find>experience</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,8 +160,10 @@
         <option value="$PROJECT_DIR$/vendor/custom-font/css/style.css" />
         <option value="$PROJECT_DIR$/data/ge/experience.json" />
         <option value="$PROJECT_DIR$/data/en/experience.json" />
-        <option value="$PROJECT_DIR$/js/resume.js" />
+        <option value="$PROJECT_DIR$/data/en/about&amp;interface.json" />
+        <option value="$PROJECT_DIR$/data/ge/about&amp;interface.json" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/resume.js" />
       </list>
     </option>
   </component>
@@ -174,6 +196,12 @@
               <item name="aakkaakkii.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="en" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aakkaakkii.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aakkaakkii.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="ge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aakkaakkii.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -216,17 +244,17 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\programming\web_front-end\aakkaakkii.github.io\data\ge" />
-      <recent name="F:\programming\web_front-end\aakkaakkii.github.io\vendor\custom-font" />
-      <recent name="F:\programming\web_front-end\aakkaakkii.github.io" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\programming\web_front-end\aakkaakkii.github.io\data\en" />
       <recent name="F:\programming\web_front-end\aakkaakkii.github.io\vendor\custom-font" />
       <recent name="F:\programming\web_front-end\aakkaakkii.github.io\vendor\custom-font\css" />
       <recent name="F:\programming\web_front-end\aakkaakkii.github.io\data" />
       <recent name="F:\programming\web_front-end\aakkaakkii.github.io\vendor\fontawesome-free\svgs\brands" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\programming\web_front-end\aakkaakkii.github.io\data\ge" />
+      <recent name="F:\programming\web_front-end\aakkaakkii.github.io\vendor\custom-font" />
+      <recent name="F:\programming\web_front-end\aakkaakkii.github.io" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -254,12 +282,14 @@
       <workItem from="1540310999156" duration="1748000" />
       <workItem from="1541259992350" duration="17000" />
       <workItem from="1549469368119" duration="8140000" />
-      <workItem from="1549555947965" duration="4165000" />
+      <workItem from="1549555947965" duration="5441000" />
+      <workItem from="1549644523124" duration="2283000" />
+      <workItem from="1549701653930" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14070000" />
+    <option name="totallyTimeSpent" value="18228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -370,13 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/custom-font/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/en/education.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -384,17 +407,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/ge/experience.json">
+    <entry file="file://$PROJECT_DIR$/vendor/fontawesome-free/scss/brands.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/resume.css">
+    <entry file="file://$PROJECT_DIR$/data/ge/about&amp;interface.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="196" column="21" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
+        <state relative-caret-position="252">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/custom-font/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -405,29 +435,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/resume.js">
+    <entry file="file://$PROJECT_DIR$/css/resume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        <state relative-caret-position="5488">
+          <caret line="196" column="21" selection-start-line="196" selection-start-column="21" selection-end-line="196" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/fontawesome-free/scss/brands.scss">
+    <entry file="file://$PROJECT_DIR$/data/ge/experience.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="170" column="11" lean-forward="true" selection-start-line="170" selection-start-column="11" selection-end-line="170" selection-end-column="11" />
+        <state relative-caret-position="533">
+          <caret line="76" column="33" lean-forward="true" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#button#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#span#0;n#a#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/en/about&amp;interface.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/resume.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="98" column="62" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
         </state>
       </provider>
     </entry>
