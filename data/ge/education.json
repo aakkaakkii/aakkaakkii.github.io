@@ -1,8 +1,14 @@
 [
   {
-    "university": "UNIVERSITY OF COLORADO BOULDER",
-    "degree": "BACHELOR OF SCIENCE",
-    "date": "August 2006 - May 2010",
-    "description": "Computer Science - Web Development Track"
+    "university": "The University of Georgia",
+    "degree": "მაგისტრის ხარისხი, კომპიუტერული მეცნიერებები",
+    "date": "2019 - დღემდე",
+    "description": ""
+  },
+  {
+    "university": "Agricultural University of Georgia",
+    "degree": "ბაკალავრის ხარისხი, ბიზნეს ადმინისტრირება",
+    "date": "2015 - 2019",
+    "description": ""
   }
 ]
